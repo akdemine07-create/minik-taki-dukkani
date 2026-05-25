@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #fdf7f7;
+}
+
+header{
+    background-color: pink;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1{
+    margin-bottom: 15px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.tanitim{
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.tanitim h2{
+    margin-bottom: 15px;
+}
+
+footer{
+    background-color: pink;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+}
+button{
+    background-color: pink;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hotpink;
+    color: white;
+}
+
+input, textarea{
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea{
+    height: 100px;
+}
+
+@media(max-width:768px){
+
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .urunler{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
